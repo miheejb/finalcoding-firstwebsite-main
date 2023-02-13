@@ -12,11 +12,19 @@ header {
   grid-row-end: 2;
 }
 
+aside{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 7;
+  
+}
+
 
 
 main {
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 7;
   grid-row-start: 2;
   grid-row-end: 5;
 }
@@ -460,13 +468,12 @@ aside{
     font-size: 2rem;
     letter-spacing:0;
   }
-  footer {
+  footer{
     display: flex;
     flex-direction: column;
     height: 10rem;
     position:fixed;
     width:100%;
     bottom:0;
-    
-  
   }
+}
